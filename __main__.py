@@ -1,6 +1,8 @@
 import sys
 import json
 import random
+import os
+import shutil
 from datetime import datetime
 # from kivy.app import App
 # from kivy.uix.widget import Widget
@@ -100,7 +102,14 @@ def pretty_format_vocab(vocab, show_frequency=True):
 
 
 def repl():
-    vocab_file = './alternating_kana.json'
+    vocab_base_file = 'Vocabularies/alternating_kana_base.json'
+    vocab_file = 'Vocabularies/alternating_kana_default.json'
+    if not os.path.isfile(vocab_file):
+        if os.path.isfile(vocab_base_file):
+            print("No progression safe file found. Generating new progression safe file.")
+            shutil.copyfile(vocab_base_file, vocab_file)
+        else:
+            raise Exception(f"The base vacabulary file {os.path.abspath(vocab_base_file)} is missing.")
     # while True:
     #     input_val = input("Type exit at any prompt to close application.\n"
     #                       "Enter 1 to train hiragana, enter 2 to train katakana.")

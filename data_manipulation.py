@@ -1,7 +1,7 @@
 import json
 
-hiragana = json.load(open('hiragana.json'))
-katakana = json.load(open('katakana.json'))
+hiragana = json.load(open('Vocabularies/hiragana.json'))
+katakana = json.load(open('Vocabularies/katakana.json'))
 
 class Instance:
     def __init__(self, target, translation, frequency, correct, incorrect):
@@ -18,5 +18,5 @@ for (hk, hv), (kk, kv) in zip(hiragana.items(), katakana.items()):
 
 print(f"generated file with {len(l)} entries")
 tdump = json.dumps(l,indent=4)
-with open("alternating_kana.json", 'w') as f:
+with open("Vocabularies/alternating_kana_base.json", 'w') as f:
     f.write(tdump)
