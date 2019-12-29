@@ -106,7 +106,7 @@ def repl():
     vocab_file = 'Vocabularies/alternating_kana_default.json'
     if not os.path.isfile(vocab_file):
         if os.path.isfile(vocab_base_file):
-            print("No progression safe file found. Generating new progression safe file.")
+            print(f"{bcolors.WARNING}No progression safe file found. Generating new progression safe file.{bcolors.ENDC}\n")
             shutil.copyfile(vocab_base_file, vocab_file)
         else:
             raise Exception(f"The base vacabulary file {os.path.abspath(vocab_base_file)} is missing.")

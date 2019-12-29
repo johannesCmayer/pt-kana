@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27e3eed-0c91-4ee2-b6d0-dae8cd5daf7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alternating_kana.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vocabularies/alternating_kana.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_manipulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_manipulation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hiragana.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vocabularies/hiragana.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hiragana_data_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vocabularies/hiragana_data_1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/katakana.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vocabularies/katakana.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/katakana_data_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vocabularies/katakana_data_1.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577573459277</updated>
       <workItem from="1577573468853" duration="9439000" />
-      <workItem from="1577582956138" duration="9007000" />
+      <workItem from="1577582956138" duration="9351000" />
     </task>
     <servers />
   </component>
