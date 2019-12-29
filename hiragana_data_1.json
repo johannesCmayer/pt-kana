@@ -1,0 +1,522 @@
+[
+    {
+        "target": "\u3042",
+        "translation": "a",
+        "frequency": 1
+    },
+    {
+        "target": "\u3044",
+        "translation": "i",
+        "frequency": 1
+    },
+    {
+        "target": "\u3046",
+        "translation": "u",
+        "frequency": 1
+    },
+    {
+        "target": "\u3048",
+        "translation": "e",
+        "frequency": 2.0
+    },
+    {
+        "target": "\u304a",
+        "translation": "o",
+        "frequency": 2.0
+    },
+    {
+        "target": "\u304b",
+        "translation": "ka",
+        "frequency": 1
+    },
+    {
+        "target": "\u304d",
+        "translation": "ki",
+        "frequency": 1
+    },
+    {
+        "target": "\u304f",
+        "translation": "ku",
+        "frequency": 0
+    },
+    {
+        "target": "\u3051",
+        "translation": "ke",
+        "frequency": 0
+    },
+    {
+        "target": "\u3053",
+        "translation": "ko",
+        "frequency": 0
+    },
+    {
+        "target": "\u304c",
+        "translation": "ga",
+        "frequency": 0
+    },
+    {
+        "target": "\u304e",
+        "translation": "gi",
+        "frequency": 0
+    },
+    {
+        "target": "\u3050",
+        "translation": "gu",
+        "frequency": 0
+    },
+    {
+        "target": "\u3052",
+        "translation": "ge",
+        "frequency": 0
+    },
+    {
+        "target": "\u3054",
+        "translation": "go",
+        "frequency": 0
+    },
+    {
+        "target": "\u3055",
+        "translation": "sa",
+        "frequency": 0
+    },
+    {
+        "target": "\u3057",
+        "translation": "shi",
+        "frequency": 0
+    },
+    {
+        "target": "\u3059",
+        "translation": "su",
+        "frequency": 0
+    },
+    {
+        "target": "\u305b",
+        "translation": "se",
+        "frequency": 0
+    },
+    {
+        "target": "\u305d",
+        "translation": "so",
+        "frequency": 0
+    },
+    {
+        "target": "\u3056",
+        "translation": "za",
+        "frequency": 0
+    },
+    {
+        "target": "\u3058",
+        "translation": "ji",
+        "frequency": 0
+    },
+    {
+        "target": "\u305a",
+        "translation": "zu",
+        "frequency": 0
+    },
+    {
+        "target": "\u305c",
+        "translation": "ze",
+        "frequency": 0
+    },
+    {
+        "target": "\u305e",
+        "translation": "zo",
+        "frequency": 0
+    },
+    {
+        "target": "\u305f",
+        "translation": "ta",
+        "frequency": 0
+    },
+    {
+        "target": "\u3061",
+        "translation": "chi",
+        "frequency": 0
+    },
+    {
+        "target": "\u3064",
+        "translation": "tsu",
+        "frequency": 0
+    },
+    {
+        "target": "\u3066",
+        "translation": "te",
+        "frequency": 0
+    },
+    {
+        "target": "\u3068",
+        "translation": "to",
+        "frequency": 0
+    },
+    {
+        "target": "\u3060",
+        "translation": "da",
+        "frequency": 0
+    },
+    {
+        "target": "\u3062",
+        "translation": "ji",
+        "frequency": 0
+    },
+    {
+        "target": "\u3065",
+        "translation": "zu",
+        "frequency": 0
+    },
+    {
+        "target": "\u3067",
+        "translation": "de",
+        "frequency": 0
+    },
+    {
+        "target": "\u3069",
+        "translation": "do",
+        "frequency": 0
+    },
+    {
+        "target": "\u306a",
+        "translation": "na",
+        "frequency": 0
+    },
+    {
+        "target": "\u306b",
+        "translation": "ni",
+        "frequency": 0
+    },
+    {
+        "target": "\u306c",
+        "translation": "nu",
+        "frequency": 0
+    },
+    {
+        "target": "\u306d",
+        "translation": "ne",
+        "frequency": 0
+    },
+    {
+        "target": "\u306e",
+        "translation": "no",
+        "frequency": 0
+    },
+    {
+        "target": "\u306f",
+        "translation": "ha",
+        "frequency": 0
+    },
+    {
+        "target": "\u3072",
+        "translation": "hi",
+        "frequency": 0
+    },
+    {
+        "target": "\u3075",
+        "translation": "fu",
+        "frequency": 0
+    },
+    {
+        "target": "\u3078",
+        "translation": "he",
+        "frequency": 0
+    },
+    {
+        "target": "\u307b",
+        "translation": "ho",
+        "frequency": 0
+    },
+    {
+        "target": "\u3070",
+        "translation": "ba",
+        "frequency": 0
+    },
+    {
+        "target": "\u3073",
+        "translation": "bi",
+        "frequency": 0
+    },
+    {
+        "target": "\u3076",
+        "translation": "bu",
+        "frequency": 0
+    },
+    {
+        "target": "\u3079",
+        "translation": "be",
+        "frequency": 0
+    },
+    {
+        "target": "\u307c",
+        "translation": "bo",
+        "frequency": 0
+    },
+    {
+        "target": "\u3071",
+        "translation": "pa",
+        "frequency": 0
+    },
+    {
+        "target": "\u3074",
+        "translation": "pi",
+        "frequency": 0
+    },
+    {
+        "target": "\u3077",
+        "translation": "pu",
+        "frequency": 0
+    },
+    {
+        "target": "\u307a",
+        "translation": "pe",
+        "frequency": 0
+    },
+    {
+        "target": "\u307d",
+        "translation": "po",
+        "frequency": 0
+    },
+    {
+        "target": "\u307e",
+        "translation": "ma",
+        "frequency": 0
+    },
+    {
+        "target": "\u307f",
+        "translation": "mi",
+        "frequency": 0
+    },
+    {
+        "target": "\u3080",
+        "translation": "mu",
+        "frequency": 0
+    },
+    {
+        "target": "\u3081",
+        "translation": "me",
+        "frequency": 0
+    },
+    {
+        "target": "\u3082",
+        "translation": "mo",
+        "frequency": 0
+    },
+    {
+        "target": "\u3084",
+        "translation": "ya",
+        "frequency": 0
+    },
+    {
+        "target": "\u3086",
+        "translation": "yu",
+        "frequency": 0
+    },
+    {
+        "target": "\u3088",
+        "translation": "yo",
+        "frequency": 0
+    },
+    {
+        "target": "\u3089",
+        "translation": "ra",
+        "frequency": 0
+    },
+    {
+        "target": "\u308a",
+        "translation": "ri",
+        "frequency": 0
+    },
+    {
+        "target": "\u308b",
+        "translation": "ru",
+        "frequency": 0
+    },
+    {
+        "target": "\u308c",
+        "translation": "re",
+        "frequency": 0
+    },
+    {
+        "target": "\u308d",
+        "translation": "ro",
+        "frequency": 0
+    },
+    {
+        "target": "\u308f",
+        "translation": "wa",
+        "frequency": 0
+    },
+    {
+        "target": "\u3092",
+        "translation": "wo",
+        "frequency": 0
+    },
+    {
+        "target": "\u3093",
+        "translation": "n",
+        "frequency": 0
+    },
+    {
+        "target": "\u304d\u3083",
+        "translation": "kya",
+        "frequency": 0
+    },
+    {
+        "target": "\u304d\u3085",
+        "translation": "kyu",
+        "frequency": 0
+    },
+    {
+        "target": "\u304d\u3087",
+        "translation": "kyo",
+        "frequency": 0
+    },
+    {
+        "target": "\u304e\u3083",
+        "translation": "gya",
+        "frequency": 0
+    },
+    {
+        "target": "\u304e\u3085",
+        "translation": "gyu",
+        "frequency": 0
+    },
+    {
+        "target": "\u304e\u3087",
+        "translation": "gyo",
+        "frequency": 0
+    },
+    {
+        "target": "\u3057\u3083",
+        "translation": "sha",
+        "frequency": 0
+    },
+    {
+        "target": "\u3057\u3085",
+        "translation": "shu",
+        "frequency": 0
+    },
+    {
+        "target": "\u3057\u3087",
+        "translation": "sho",
+        "frequency": 0
+    },
+    {
+        "target": "\u3058\u3083",
+        "translation": "ja",
+        "frequency": 0
+    },
+    {
+        "target": "\u3058\u3085",
+        "translation": "ju",
+        "frequency": 0
+    },
+    {
+        "target": "\u3058\u3087",
+        "translation": "jo",
+        "frequency": 0
+    },
+    {
+        "target": "\u3061\u3083",
+        "translation": "cha",
+        "frequency": 0
+    },
+    {
+        "target": "\u3061\u3085",
+        "translation": "chu",
+        "frequency": 0
+    },
+    {
+        "target": "\u3061\u3087",
+        "translation": "cho",
+        "frequency": 0
+    },
+    {
+        "target": "\u306b\u3083",
+        "translation": "nya",
+        "frequency": 0
+    },
+    {
+        "target": "\u306b\u3085",
+        "translation": "nyu",
+        "frequency": 0
+    },
+    {
+        "target": "\u306b\u3087",
+        "translation": "nyo",
+        "frequency": 0
+    },
+    {
+        "target": "\u3072\u3083",
+        "translation": "hya",
+        "frequency": 0
+    },
+    {
+        "target": "\u3072\u3085",
+        "translation": "hyu",
+        "frequency": 0
+    },
+    {
+        "target": "\u3072\u3087",
+        "translation": "hyo",
+        "frequency": 0
+    },
+    {
+        "target": "\u3073\u3083",
+        "translation": "bya",
+        "frequency": 0
+    },
+    {
+        "target": "\u3073\u3085",
+        "translation": "byu",
+        "frequency": 0
+    },
+    {
+        "target": "\u3073\u3087",
+        "translation": "byo",
+        "frequency": 0
+    },
+    {
+        "target": "\u3074\u3083",
+        "translation": "pya",
+        "frequency": 0
+    },
+    {
+        "target": "\u3074\u3085",
+        "translation": "pyu",
+        "frequency": 0
+    },
+    {
+        "target": "\u3074\u3087",
+        "translation": "pyo",
+        "frequency": 0
+    },
+    {
+        "target": "\u307f\u3083",
+        "translation": "mya",
+        "frequency": 0
+    },
+    {
+        "target": "\u307f\u3085",
+        "translation": "myu",
+        "frequency": 0
+    },
+    {
+        "target": "\u307f\u3087",
+        "translation": "myo",
+        "frequency": 0
+    },
+    {
+        "target": "\u308a\u3083",
+        "translation": "rya",
+        "frequency": 0
+    },
+    {
+        "target": "\u308a\u3085",
+        "translation": "ryu",
+        "frequency": 0
+    },
+    {
+        "target": "\u308a\u3087",
+        "translation": "ryo",
+        "frequency": 0
+    }
+]
