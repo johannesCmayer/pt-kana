@@ -55,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.data_manipulation">
+  <component name="RunManager" selected="Python.main">
     <configuration name="data_manipulation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pt-kana" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.data_manipulation" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.data_manipulation" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +118,8 @@
       <option name="presentableId" value="Default" />
       <updated>1577573459277</updated>
       <workItem from="1577573468853" duration="9439000" />
-      <workItem from="1577582956138" duration="9351000" />
+      <workItem from="1577582956138" duration="9551000" />
+      <workItem from="1577598457314" duration="1780000" />
     </task>
     <servers />
   </component>
@@ -130,14 +131,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/__main__.py</url>
+          <line>137</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pt_kana$main.coverage" NAME="main Coverage Results" MODIFIED="1577587879436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pt_kana$data_manipulation.coverage" NAME="data_manipulation Coverage Results" MODIFIED="1577592009563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pt_kana$main.coverage" NAME="main Coverage Results" MODIFIED="1577599379002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pt_kana$data_manipulation.coverage" NAME="data_manipulation Coverage Results" MODIFIED="1577598525608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

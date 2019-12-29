@@ -3,6 +3,7 @@ import json
 import random
 import os
 import shutil
+import time
 from datetime import datetime
 # from kivy.app import App
 # from kivy.uix.widget import Widget
@@ -131,7 +132,9 @@ def repl():
     while True:
         entry = vocab.get_weighted_random_entry()
         wrong_answers = 0
+        calc_time_coef = lambda start_time: min(4, max(0.3, (time.time() - start_time) / 4))
         while True:
+            start_time = time.time()
             answer = input(f"\n{entry.get('target')}: ")
             if answer == 'exit':
                 sys.exit(0)
@@ -141,8 +144,9 @@ def repl():
                 print(f"Highest frequency entries:")
                 print(pretty_format_vocab(vocab.active_high_frequency_sorted()[:6]))
             elif answer == entry.get('translation'):
-                vocab.multiply_frequency(0.5)
-                print(f"{bcolors.OKBLUE}correct, f:{entry.get('frequency')}{bcolors.ENDC}")
+                coef = calc_time_coef(start_time)
+                vocab.multiply_frequency(coef)
+                print(f"{bcolors.OKBLUE}correct, f:{int(entry.get('frequency'))}, c:{'{:.2f}'.format(coef)}{bcolors.ENDC}")
                 vocab.record_test_result(True)
                 if vocab.check_if_all_leq_one():
                     added_char = vocab.make_next_char_possible()
@@ -150,9 +154,10 @@ def repl():
                         print(f"{bcolors.OKGREEN}{bcolors.BOLD}{added_char}{bcolors.ENDC} added to test-set. {vocab.ratio_of_chars_in_testset()} chars in test-set.")
                 break
             else:
-                vocab.multiply_frequency(4)
+                coef = 4
+                vocab.multiply_frequency(coef)
                 wrong_answers += 1
-                print(f"{bcolors.WARNING}WRONG f:{entry.get('frequency')}{bcolors.ENDC}" + (f" => {entry.get('translation')}" if wrong_answers > 1 else ''))
+                print(f"{bcolors.WARNING}WRONG f:{int(entry.get('frequency'))}, p:{'{:.2f}'.format(coef)}{bcolors.ENDC}" + (f" => {entry.get('translation')}" if wrong_answers > 1 else ''))
                 vocab.record_test_result(False)
 
 
